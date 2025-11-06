@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ArcadeX — Játékterem promó oldal</title>
+  <meta name="description" content="Modern játékterem promóciós oldal — gépek, szolgáltatások, nyitvatartás és kapcsolat." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="site">
+  <!-- ===== NAVBAR (fixed, horgony menü + progress sáv) ===== -->
+  <header class="nav">
+    <div class="nav-inner container">
+      <a href="#hero" class="nav-brand">ArcadeX</a>
+
+      <button class="nav-burger" aria-label="Menü váltása" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-line"></span>
+        <span class="nav-line"></span>
+        <span class="nav-line"></span>
+      </button>
+
+      <nav id="nav-menu" class="nav-menu">
+        <a class="nav-link" href="#hero">Hero</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#games">Games</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="nav-progress"><span class="nav-progress-bar"></span></div>
+  </header>
+
+  <main class="main">
+    <!-- ===== HERO ===== -->
+    <section id="hero" class="hero bg-fade">
+      <!-- dekor rétegek -->
+      <div class="hero-shine"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-inner container">
+        <div class="hero-chips reveal" style="--stagger:0">
+          <span class="chip">🎮 Retro & Modern</span>
+          <span class="chip chip-accent">🏆 Heti versenyek</span>
+          <span class="chip">📍 Központi hely</span>
+        </div>
+
+        <h1 class="hero-title reveal" style="--stagger:1">
+          Lépj be a <span class="hero-title-accent">játék</span> világába
+        </h1>
+        <p class="hero-subtitle reveal" style="--stagger:2">
+          Neon hangulat, klasszikus gépek, modern élmény — a város legmenőbb játékterme.
+        </p>
+
+        <div class="hero-cta reveal" style="--stagger:3">
+          <a href="#games" class="btn btn-primary">Fedezd fel a gépeket</a>
+          <a href="#contact" class="btn btn-ghost">Foglalj időpontot</a>
+        </div>
+
+        <!-- stat sáv (reveal is) -->
+        <div class="hero-stats reveal" style="--stagger:4">
+          <div class="stat">
+            <div class="stat-value">50+</div>
+            <div class="stat-label">Játékgép</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">7/nap</div>
+            <div class="stat-label">Nyitva</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">Top 10</div>
+            <div class="stat-label">Ranglista</div>
+          </div>
+        </div>
+
+      </div>
+      <div class="section-wave"></div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about section">
+      <div class="section-head container reveal-on-scroll">
+        <h2 class="section-title"><span class="title-glow"></span>Rólunk</h2>
+        <p class="section-lead">Közösségi tér, bajnokságok, tematikus esték — nálunk a játék több, mint hobbi.</p>
+      </div>
+      <div class="about-grid container">
+        <div class="about-text glass reveal-on-scroll">
+          <p class="about-paragraph">
+            Az <span class="about-highlight">ArcadeX</span> a klasszikus arcade hangulatot hozza vissza modern köntösben.
+            Kiváló állapotú gépekkel, barátságos személyzettel és világos dizájnnal várunk.
+          </p>
+          <p class="about-paragraph">
+            Céges csapatépítők, szülinapok és e-sport közvetítések is elérhetők — rugalmas csomagokkal.
+          </p>
+        </div>
+        <ul class="about-list card-soft reveal-on-scroll">
+          <li class="about-item">> 50 játékgép</li>
+          <li class="about-item">Heti versenyek</li>
+          <li class="about-item">Kedvező bérlet</li>
+          <li class="about-item">Központi elhelyezkedés</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services" class="services section">
+      <div class="section-head container reveal-on-scroll">
+        <h2 class="section-title"><span class="title-glow"></span>Szolgáltatások</h2>
+        <p class="section-lead">Egyéni játék, privát terem, rendezvénycsomagok — válassz igényeid szerint.</p>
+      </div>
+      <div class="cards container">
+        <article class="card card-bright reveal-on-scroll tilt-target">
+          <div class="card-media card-media-cover bg-fade" role="img" aria-label="Szabad játékidő"></div>
+          <div class="card-body">
+            <h3 class="card-title">Szabad játékidő</h3>
+            <p class="card-text">Óradíjas vagy napijegyes belépéssel, több zóna hozzáféréssel.</p>
+            <div class="card-tags">
+              <span class="tag">Day pass</span><span class="tag">Multi-zone</span>
+            </div>
+          </div>
+        </article>
+        <article class="card card-bright reveal-on-scroll tilt-target">
+          <div class="card-media card-media-cover2 bg-fade" role="img" aria-label="Privát szoba"></div>
+          <div class="card-body">
+            <h3 class="card-title">Privát szoba</h3>
+            <p class="card-text">Szülinap, csapatépítő vagy baráti party — foglalj saját teret.</p>
+            <div class="card-tags">
+              <span class="tag">Party</span><span class="tag">Catering</span>
+            </div>
+          </div>
+        </article>
+        <article class="card card-bright reveal-on-scroll tilt-target">
+          <div class="card-media card-media-cover3 bg-fade" role="img" aria-label="Verseny & bajnokság"></div>
+          <div class="card-body">
+            <h3 class="card-title">Verseny & bajnokság</h3>
+            <p class="card-text">Heti ranglisták, díjazás és élő kommentár a nagyobb döntőkön.</p>
+            <div class="card-tags">
+              <span class="tag">Leaderboard</span><span class="tag">Prizes</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== GAMES ===== -->
+    <section id="games" class="games section">
+      <div class="section-head container reveal-on-scroll">
+        <h2 class="section-title"><span class="title-glow"></span>Játékok</h2>
+        <p class="section-lead">A legismertebb klasszikusok és új kedvencek: pinball, verekedős, verseny, ritmus és több.</p>
+      </div>
+      <div class="games-grid container">
+        <article class="game reveal-on-scroll tilt-target">
+          <div class="game-thumb bg-fade" role="img" aria-label="Retro versenyjáték"></div>
+          <h3 class="game-title">Retro Racer</h3>
+          <p class="game-text">Gyors kanyarok, neon fények, időmérő kihívások.</p>
+        </article>
+        <article class="game reveal-on-scroll tilt-target">
+          <div class="game-thumb game-thumb-2 bg-fade" role="img" aria-label="Klasszikus verekedős"></div>
+          <h3 class="game-title">Street Clash</h3>
+          <p class="game-text">Kétjátékos üzem, helyi bajnokságok, ranglista.</p>
+        </article>
+        <article class="game reveal-on-scroll tilt-target">
+          <div class="game-thumb game-thumb-3 bg-fade" role="img" aria-label="Ritmusjáték"></div>
+          <h3 class="game-title">Beat Drop</h3>
+          <p class="game-text">Ritmusra koppintva, fényshow kísérettel.</p>
+        </article>
+        <article class="game reveal-on-scroll tilt-target">
+          <div class="game-thumb game-thumb-4 bg-fade" role="img" aria-label="Pinball"></div>
+          <h3 class="game-title">Pinball Pro</h3>
+          <p class="game-text">Több pálya, multiball, klasszikus flipper-élmény.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact section">
+      <div class="section-head container reveal-on-scroll">
+        <h2 class="section-title"><span class="title-glow"></span>Kapcsolat</h2>
+        <p class="section-lead">Kérdésed van? Foglalnál? Írj nekünk vagy ugorj be!</p>
+      </div>
+
+      <div class="contact-grid container">
+        <form class="form glass reveal-on-scroll" action="#" method="post">
+          <div class="form-row">
+            <label class="form-label" for="name">Név</label>
+            <input class="form-input" type="text" name="name" id="name" placeholder="Teljes neved" required />
+          </div>
+          <div class="form-row">
+            <label class="form-label" for="email">E-mail</label>
+            <input class="form-input" type="email" name="email" id="email" placeholder="email@pelda.hu" required />
+          </div>
+          <div class="form-row">
+            <label class="form-label" for="message">Üzenet</label>
+            <textarea class="form-textarea" name="message" id="message" rows="5" placeholder="Miben segíthetünk?" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Küldés</button>
+        </form>
+
+        <div class="contact-info card-soft reveal-on-scroll">
+          <p class="contact-line"><strong>Cím:</strong> 1111 Budapest, Arcade utca 1.</p>
+          <p class="contact-line"><strong>Telefon:</strong> +36 1 234 5678</p>
+          <p class="contact-line"><strong>Nyitvatartás:</strong> H–V 10:00–22:00</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner container">
+      <p class="footer-text">© <span class="footer-brand">ArcadeX</span> — Minden jog fenntartva.</p>
+      <a class="footer-link" href="#hero">Vissza a tetejére ↑</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
