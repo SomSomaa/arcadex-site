@@ -161,7 +161,7 @@ body {
   position: relative;
   min-height: 78vh;
   display: grid; place-items: center;
-  background: center / cover no-repeat url("/img/hero1.jpg");
+  background: center / cover no-repeat url("/assets/img/hero1.jpg");
   overflow: hidden;
 }
 /* animált fénycsík */
@@ -268,9 +268,9 @@ body {
 .card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
 .card:hover::before { opacity: .95; }
 .card-media { height: 180px; background: #eaf2ff; }
-.card-media-cover { background: center/cover no-repeat url("/img/service-01.jpg"); } 
-.card-media-cover2 { background: center/cover no-repeat url("/img/service-2.jpg"); } 
-.card-media-cover3 { background: center/cover no-repeat url("/img/service-03.jpg"); } 
+.card-media-cover { background: center/cover no-repeat url("/assets/img/service-01.jpg"); } 
+.card-media-cover2 { background: center/cover no-repeat url("/assets/img/service-2.jpg"); } 
+.card-media-cover3 { background: center/cover no-repeat url("/assets/img/service-03.jpg"); } 
 .card-body { padding: 1rem 1.1rem 1.25rem; }
 .card-title { margin: 0 0 .4rem; color: var(--color-primary); font-weight: 800; }
 .card-text { margin: 0 0 .75rem; color: #374151; }
@@ -302,7 +302,7 @@ body {
 }
 .game:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
 .game-thumb {
-  height: 150px; background: center/cover no-repeat url("/img/game-1.jpg");
+  height: 150px; background: center/cover no-repeat url("/assets/img/game-1.jpg");
   position: relative;
 }
 .game-thumb::after{
@@ -312,9 +312,9 @@ body {
   opacity: .85; transition: opacity .2s;
 }
 .game:hover .game-thumb::after{ opacity: 1; }
-.game-thumb-2 { background-image: url("/img/game-2.jpg"); }
-.game-thumb-3 { background-image: url("/img/game-3.jpg"); }
-.game-thumb-4 { background-image: url("/img/game-4.jpg"); }
+.game-thumb-2 { background-image: url("/assets/img/game-2.jpg"); }
+.game-thumb-3 { background-image: url("/assets/img/game-3.jpg"); }
+.game-thumb-4 { background-image: url("/assets/img/game-4.jpg"); }
 .game-title { margin: .85rem .95rem .35rem; color: var(--color-primary); font-weight: 800; }
 .game-text { margin: 0 .95rem; color: #374151; padding-bottom: .25rem; }
 
